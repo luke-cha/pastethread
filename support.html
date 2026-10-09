@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pastethread Support</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<header><img src="icon.png" alt=""><a href="./">Pastethread</a>
+<nav><a href="support.html">Support</a><a href="privacy.html">Privacy</a></nav></header>
+<h1>Support</h1>
+<p class="lead">Questions, bugs, or ideas — we'd love to hear from you.</p>
+<div class="card">
+<p><strong>Report a problem or request a feature:</strong> <a href="https://github.com/luke-cha/pastethread/issues">GitHub Issues</a></p>
+<p><strong>Email:</strong> <a href="mailto:jjunghyup@gmail.com">jjunghyup@gmail.com</a></p>
+<p>Please don't include clipboard history exports or other personal data in reports.</p>
+</div>
+
+<h2>Getting started</h2>
+<ol>
+<li>Open Pastethread from the menu bar and follow <strong>Getting Started</strong>: choose which apps should receive paths.</li>
+<li>Copy a screenshot (⌃⇧⌘4) or an image file in Finder.</li>
+<li>Press ⌘V in your terminal to paste the path, or in Notes to paste the image.</li>
+<li>Press ⌥⌘F to open your history.</li>
+</ol>
+
+<h2>FAQ</h2>
+<p><strong>Does Pastethread intercept ⌘V?</strong><br>No. It never reads your keystrokes. When a paste rule applies, it reshapes the clipboard for the app in front and restores the original when you switch to another app.</p>
+<p><strong>How do I change what ⌘V pastes in an app?</strong><br>Open the Pastethread menu and choose <em>Paste Rules for &lt;app&gt;</em>, click the app button in the History window, or use Settings › Paste Rules.</p>
+<p><strong>My terminal still pastes nothing.</strong><br>Make sure the terminal has a rule of <em>original + path</em> or <em>path only</em> for the file type you copied, and that “Apply rules when switching apps” is on (Settings › Paste Rules).</p>
+<p><strong>macOS asks whether my terminal may “access data from other apps”.</strong><br>Pasted screenshots are saved as files inside Pastethread's app container. The first time your terminal (or an agent running in it) opens one, macOS asks for permission. Choose Allow so the tool can read the image; you can change this later in System Settings › Privacy &amp; Security. Files copied in Finder keep their own paths and are not affected.</p>
+<p><strong>Another clipboard manager shows extra items.</strong><br>When Pastethread reshapes the clipboard, other clipboard tools may record that version as a new item.</p>
+<p><strong>Pasting into Spotlight or a launcher panel.</strong><br>Panels that don't become the active app use the rule of the app you were in before.</p>
+<p><strong>Where is my data?</strong><br>Only on your Mac, inside Pastethread's app container. It is not encrypted; exclude sensitive apps in Settings › Privacy and protect exported archives.</p>
+<footer>© 2026 Pastethread · <a href="privacy.html">Privacy</a> · <a href="ko/support.html">한국어</a></footer>
+</main>
+</body>
+</html>
