@@ -15,7 +15,7 @@ A menu bar clipboard manager for Mac developers who work with AI coding agents a
 
 [![Pastethread: one ⌘V, the right paste for every app](media/intro-poster-en.jpg)](https://luke-cha.github.io/pastethread/#demo)
 
-▶ **[Watch the 36-second introduction](https://luke-cha.github.io/pastethread/#demo)**: a path in Terminal, the image in Notes, and searchable copy history. Captioned, no audio, edited from a real Mac recording.
+▶ **[Watch the 36-second introduction](https://luke-cha.github.io/pastethread/#demo)**: a path in Terminal, the image in Notes, and searchable copy history. With English or Korean AI narration and on-screen explanations, edited from a real Mac recording.
 
 **[Get Pastethread on the Mac App Store](https://apps.apple.com/app/id6820030486)** · Paid app; see the store for your local price.
 
