@@ -4,6 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Pastethread — ⌘V 한 번, 앱마다 알맞게</title>
+<meta name="description" content="스크린샷을 한 번 복사하고, 터미널에는 경로를, 메모에는 이미지를 붙이세요. Mac App Store에서 만나는 로컬 클립보드 관리자 Pastethread.">
+<meta property="og:title" content="Pastethread — ⌘V 한 번, 앱마다 알맞게">
+<meta property="og:description" content="터미널에는 경로를, 메모에는 이미지를. 36초 소개 영상으로 확인하고 Mac App Store에서 만나보세요.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://luke-cha.github.io/pastethread/ko/">
+<meta property="og:image" content="https://luke-cha.github.io/pastethread/media/intro-poster-ko.jpg">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="stylesheet" href="../style.css">
 </head>
 <body>
@@ -11,9 +18,24 @@
 <header><img src="../icon.png" alt=""><a href="./">Pastethread</a>
 <nav><a href="support.html">지원</a><a href="privacy.html">개인정보 처리방침</a></nav></header>
 <h1>⌘V 한 번, 앱마다 알맞게.</h1>
-<p class="lead">터미널과 AI 코딩 에이전트에는 파일 경로를, 메모·채팅·디자인 앱에는 원본 이미지나 파일을. 복사한 모든 것은 텍스트·이미지·파일별로 정리된 기록에 남습니다.</p>
-<p class="lang">macOS 14 이상용 메뉴 막대 앱 · Mac App Store 출시 예정</p>
+<p class="lead">스크린샷을 한 번 복사하고, 터미널에는 경로를, 메모에는 이미지를 붙이세요. 앱마다 한 번 정해 두면, 나머지는 평소처럼 ⌘V.</p>
+<div class="actions"><a class="button" href="https://apps.apple.com/kr/app/id6820030486">Mac App Store에서 보기</a><a href="#demo">36초 소개 영상 보기 ↓</a></div>
+<p class="lang">macOS 14 이상 · 유료 앱 · 지역별 가격은 App Store에서 확인 · 계정 가입 없음</p>
+<figure id="demo">
+<video class="shot" aria-label="Pastethread 소개: 터미널에는 경로, 메모에는 이미지, 복사 기록 검색" controls muted playsinline preload="none" poster="../media/intro-poster-ko.jpg" width="1920" height="1080">
+<source src="../media/intro-ko.mp4" type="video/mp4">
+<a href="../media/intro-ko.mp4">소개 영상 보기 (MP4)</a>
+</video>
+<figcaption>36초, 한국어 설명 자막 포함. 실제 Mac의 1.0.0 버전 녹화를 편집했습니다. 소리는 없습니다. <a href="../media/demo.mp4">설정 과정까지 담은 전체 데모 보기 (약 1분, 1.5배속)</a>.</figcaption>
+</figure>
 <img class="shot" src="../images/ko/01-one-paste.jpg" alt="⌘V 한 번, 앱마다 알맞게." loading="lazy" width="1440" height="900">
+<h2>설치하고, 이렇게 써 보세요</h2>
+<ol>
+<li><a href="https://apps.apple.com/kr/app/id6820030486">Mac App Store</a>에서 설치하고, 첫 실행 안내에서 Terminal 기본 설정을 켜세요.</li>
+<li>Control-Shift-Command-4로 스크린샷을 클립보드에 복사하세요. Terminal에서 ⌘V하면 경로가, 메모에서 ⌘V하면 이미지가 들어갑니다.</li>
+<li>다른 앱도 메뉴 막대에서 규칙을 정하세요. 복사했던 것은 ⌥⌘F로 기록을 열어 다시 찾을 수 있습니다.</li>
+</ol>
+<p class="lang">Terminal에서 생성된 이미지 파일을 읽을 때 macOS가 다른 앱 데이터 접근 허용을 물을 수 있습니다. <a href="support.html">지원 FAQ 보기</a>.</p>
 <h2>왜 필요한가요</h2>
 <p>어떤 터미널은 이미지를 아예 붙여넣지 못하고, AI 에이전트에게 필요한 건 이미지 경로뿐입니다. 코딩 도구는 경로만 필요할 때도 이미지를 첨부해 버리곤 합니다. Pastethread는 일하는 방식을 바꾸지 않고 앱마다 알맞은 것을 넣어 줍니다.</p>
 <h2>Paste Rules</h2>
@@ -26,12 +48,13 @@
 <img class="shot" src="../images/ko/02-paste-rules.jpg" alt="⌘V가 무엇을 붙여넣을지, 앱마다 정하세요." loading="lazy" width="1440" height="900">
 <img class="shot" src="../images/ko/03-agents-need-paths.jpg" alt="에이전트에겐 이미지가 아니라 경로." loading="lazy" width="1440" height="900">
 <h2>종류별 복사 기록</h2>
-<p>텍스트·이미지·파일을 한 번에 나눠 보고, 이미지 파일과 영상 첫 장면을 미리 봅니다. ⌥⌘F로 어디서든 열어 입력하고, 고르고, 엔터를 누르면 방금 쓰던 앱의 붙여넣기 규칙이 적용됩니다. 스크린샷 속 글자도 검색되고, 고정·보드·저장한 보기로 자주 쓰는 것을 가까이 둘 수 있습니다.</p>
+<p>텍스트·이미지·파일을 한 번에 나눠 보고, 이미지 파일과 영상 첫 장면을 미리 봅니다. ⌥⌘F로 어디서든 열어 입력하고, 고르고, 엔터를 누르면 방금 쓰던 앱의 붙여넣기 규칙이 적용됩니다. 선택 기능인 기기 내 텍스트 인식을 켜면 스크린샷 속 글자도 검색할 수 있습니다(기본 꺼짐). 고정·보드·저장한 보기로 자주 쓰는 것을 가까이 둘 수 있습니다.</p>
 <img class="shot" src="../images/ko/04-history-by-type.jpg" alt="복사 기록을 종류별로." loading="lazy" width="1440" height="900">
 <img class="shot" src="../images/ko/05-find-fast.jpg" alt="⌥⌘F로 바로 찾기." loading="lazy" width="1440" height="900">
 <img class="shot" src="../images/ko/06-file-previews.jpg" alt="이미지와 영상 파일도 미리보기." loading="lazy" width="1440" height="900">
 <h2>내 Mac 안에서만</h2>
 <p>모든 데이터는 이 Mac에만 저장됩니다. 계정·클라우드·분석·추적이 없고, ⌘V를 대신 누르지 않으며 접근성 권한도 필요 없습니다.</p>
+<div class="card"><h2>복사한 것을 다시 쓰기 쉽게.</h2><p>경로가 필요한 곳에는 경로를, 원본이 필요한 곳에는 원본을. 다시 찾을 땐 로컬 복사 기록에서.</p><a class="button" href="https://apps.apple.com/kr/app/id6820030486">Mac App Store에서 보기</a></div>
 <footer>© 2026 Pastethread · <a href="support.html">지원</a> · <a href="privacy.html">개인정보 처리방침</a> · <a href="../">English</a></footer>
 </main>
 </body>
